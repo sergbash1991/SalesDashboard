@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+.container {
+    align-content: center;
+    margin-top: 20px;
+
+}
+
+h1 {
+    color: #ff9900;
+    text-align: center;
+}
+
+.block {
+    background-color: #ffffff;
+    border: 2px solid #ff9900;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.graph {
+    background-color: #fff;
+    border: 1px solid #ff9900;
+    padding: 15px;
+    margin: 10px 10px;
+    border-radius: 5px;
+}
+
+/* Customize the dropdown and date picker */
+.Select-control, .DateInput {
+    border-color: #ff9900;
+}
+
+/* Heading and total sales styling */
+.block h2, .block p {
+    color: #ff7700;
+}
+
+/* Ensure that the graphs and dropdowns are visually appealing */
+.dcc_control, .DateRangePicker {
+    margin: 10px;
+}
