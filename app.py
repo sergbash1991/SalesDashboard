@@ -45,21 +45,21 @@ app.layout = dbc.Container([
                 dbc.CardBody([
                     html.H5("Total Sales", className="card-title"),
                     html.H3(id="total-sales", className="card-text"),
-                    html.P("Total number of sales in the period", className="card-text")
+                    html.P("Total number of sales", className="card-text")
                 ])
             ], color="warning", outline=True), className="block"),
             dbc.Col(dbc.Card([
                 dbc.CardBody([
                     html.H5("Total Revenue", className="card-title"),
                     html.H3(id="total-revenue", className="card-text"),
-                    html.P("Total revenue from orders in the period", className="card-text")
+                    html.P("Total revenue from orders", className="card-text")
                 ])
             ], color="warning", outline=True), className="block"),
             dbc.Col(dbc.Card([
                 dbc.CardBody([
                     html.H5("Average Order Value", className="card-title"),
                     html.H3(id="average-check", className="card-text"),
-                    html.P("Average value of orders in the period", className="card-text")
+                    html.P("Average value of orders", className="card-text")
                 ])
             ], color="warning", outline=True), className="block")
         ]),
