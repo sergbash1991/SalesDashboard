@@ -1,4 +1,4 @@
-# 📊 Interactive Sales Dashboard with Dash and PostgreSQL
+# 📊 Sales Analytics Dashboard Web App
 
 This project is an interactive web-based sales analytics dashboard built using **Dash** (Plotly), **Pandas**, **PostgreSQL**, and **Leaflet** for map visualizations.
 
